@@ -110,8 +110,8 @@
                         <addMavenDescriptor>true</addMavenDescriptor>
                     </archive>
                     <excludes>
-                        <exclude>**/logback.xml</exclude>
-                        <exclude>**/application.properties</exclude>
+                        <!--<exclude>**/logback.xml</exclude>
+                        <exclude>**/application.properties</exclude>-->
                     </excludes>
                 </configuration>
             </plugin>
