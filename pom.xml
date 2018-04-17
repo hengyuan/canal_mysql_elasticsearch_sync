@@ -109,10 +109,10 @@
                     <archive>
                         <addMavenDescriptor>true</addMavenDescriptor>
                     </archive>
-                    <excludes>
+                    <!--<excludes>
                         <exclude>**/logback.xml</exclude>
                         <exclude>**/application.properties</exclude>
-                    </excludes>
+                    </excludes>-->
                 </configuration>
             </plugin>
 
