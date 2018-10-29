@@ -109,10 +109,17 @@
                     <archive>
                         <addMavenDescriptor>true</addMavenDescriptor>
                     </archive>
+<<<<<<< HEAD
                     <excludes>
                         <!--<exclude>**/logback.xml</exclude>
                         <exclude>**/application.properties</exclude>-->
                     </excludes>
+=======
+                    <!--<excludes>
+                        <exclude>**/logback.xml</exclude>
+                        <exclude>**/application.properties</exclude>
+                    </excludes>-->
+>>>>>>> 4666acf
                 </configuration>
             </plugin>
 

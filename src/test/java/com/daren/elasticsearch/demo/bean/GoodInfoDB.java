@@ -6,7 +6,7 @@ package com.daren.elasticsearch.demo.bean;
  */
 public class GoodInfoDB {
     //indices 名必须小写
-    public static final String INDICES = "test";
+    public static final String INDICES = "spiderdata";
     // type 名必须小写
     public static final String TYPE = "t_daren_quantity_goodinfo";
 

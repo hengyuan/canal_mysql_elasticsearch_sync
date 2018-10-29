@@ -21,7 +21,7 @@ public class JestTest {
         //根据id获取
         JestClient client = EsJestClient.getClient();
         GoodInfoDaoImpl goodInfoDao = new GoodInfoDaoImpl(client);
-        GoodInfo goodInfo = goodInfoDao.seachById(3920L);
+        GoodInfo goodInfo = goodInfoDao.seachById(981161);
         System.out.println(goodInfo.getDarenNoteTitle());
         //带分页的查询
         Criteria criteria1 = new Criteria("darenNoteTitle","手");
